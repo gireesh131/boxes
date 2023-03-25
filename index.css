@@ -1,0 +1,44 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.small-box {
+  font-size: 8px;
+  padding: 20px;
+  font-family: Bree Serif;
+  height: 20px;
+  margin-right: 10px;
+  background-color: #fbbf24;
+  margin-left: 10px;
+}
+.medium-box {
+  font-size: 8px;
+  height: 40px;
+  font-family: Bree Serif;
+  padding: 40px;
+  margin-right: 10px;
+  background-color: #38bdf8;
+  margin-left: 10px;
+}
+.large-box {
+  font-size: 8px;
+  padding: 80px;
+  font-family: Bree Serif;
+  height: 80px;
+  margin-right: 10px;
+  background-color: #ec4899;
+  margin-left: 10px;
+}
